@@ -31,15 +31,6 @@
   <!--Clean-->
   <Target Name="Clean">
     <RemoveDir Directories="@(BuildArtifacts)" />
-    <delete>
-      <fileset>
-        <patternset >
-          <include name="**/bin/**" />
-          <include name="**/obj/**" />
-          <include name="${mstest_unit_test_file}" />
-        </patternset>
-      </fileset>
-    </delete>
   </Target>
   
   <!--Init-->
