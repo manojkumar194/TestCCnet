@@ -18,6 +18,7 @@
     <AssembliesToAnalyze Include="E:\GitHubSources\TestCCnet\FxCopTest.FxCop" />
     <AnalysisReport Include="E:\GitHubSources\TestCCnet\buildartifacts\FxCopAnalysis.xml" />
   </ItemGroup>
+  
   <ItemGroup>
     <MsTest Include=".C:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\MsTest.exe" />
     <TestAssembly Include="E:\GitHubSources\TestCCnet\buildartifacts\TestMS.dll" />
@@ -67,5 +68,7 @@
     </XmlRead>
     <Error Text="FxCop encountered $(Count) material rule violations" Condition="$(FxCopCriticalErrors) &gt; 50 or $(FxCopErrors) &gt; 50 or $(FxCopCriticalWarnings) &gt; 50" />-->
   </Target>
-
+  <Target Name="MsTest" DependsOnTargets="Compile">
+    <Exec Command='@(MsTest) @(TestAssembly) /xml=@(TestResults)'/>
+  </Target>
 </Project>
