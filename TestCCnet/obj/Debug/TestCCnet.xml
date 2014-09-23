@@ -6,15 +6,7 @@ TestCCnet
 </name>
 </assembly>
 <members>
-<member name="F:TestCCnet.Test.form1">
-	<summary>
-form1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="P:TestCCnet.My.MyWebExtension.Application">
+<member name="P:TestCCnet.My.MyWebExtension.Application">
 	<summary>
  Returns information about the current application.
  </summary>
@@ -47,6 +39,14 @@ To modify move field declaration from designer file to code-behind file.
  Module used to define the properties that are available in the My Namespace for Web projects.
  </summary>
 	<remarks></remarks>
+</member><member name="F:TestCCnet.Test.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member>
 </members>
 </doc>

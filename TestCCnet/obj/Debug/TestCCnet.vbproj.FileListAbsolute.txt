@@ -10,3 +10,11 @@ E:\projects2012\TestCCnet\buildartifacts\TestCCnet.dll
 E:\projects2012\TestCCnet\buildartifacts\TestCCnet.pdb
 E:\projects2012\TestCCnet\buildartifacts\TestCCnet.xml
 E:\projects2012\TestCCnet\TestCCnet\obj\Debug\TestCCnet.vbprojResolveAssemblyReference.cache
+E:\GitHubSources\TestCCnet\TestCCnet\bin\TestCCnet.dll
+E:\GitHubSources\TestCCnet\TestCCnet\bin\TestCCnet.pdb
+E:\GitHubSources\TestCCnet\TestCCnet\bin\TestCCnet.xml
+E:\GitHubSources\TestCCnet\TestCCnet\obj\Debug\TestCCnet.Resources.resources
+E:\GitHubSources\TestCCnet\TestCCnet\obj\Debug\TestCCnet.vbproj.GenerateResource.Cache
+E:\GitHubSources\TestCCnet\TestCCnet\obj\Debug\TestCCnet.dll
+E:\GitHubSources\TestCCnet\TestCCnet\obj\Debug\TestCCnet.xml
+E:\GitHubSources\TestCCnet\TestCCnet\obj\Debug\TestCCnet.pdb
