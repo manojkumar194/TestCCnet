@@ -5,7 +5,7 @@
   <PropertyGroup>
     <ProjectGuid>{52B0EA3B-37E3-428F-B57B-2C884E08150F}</ProjectGuid>
   </PropertyGroup>
-  <UsingTask AssemblyFile="E:\TestCCnet\ThirdParty\MSBuildTasks.1.4.0.65\tools\MSBuild.Community.Tasks.dll" TaskName="MSBuild.Community.Tasks.XmlRead" />
+  <UsingTask AssemblyFile="E:\GitHubSources\TestCCnet\ThirdParty\MSBuildTasks.1.4.0.65\tools\MSBuild.Community.Tasks.dll" TaskName="MSBuild.Community.Tasks.XmlRead" />
   <!--<UsingTask TaskName="ReportGenerator" AssemblyFile="ReportGenerator.exe" />-->
   <!-- ItemGroup helps avoid duplication so let us define one for the buildartifacts folder which will be used in Clean, Init Targets.-->
   <ItemGroup>
@@ -14,9 +14,9 @@
   </ItemGroup>
   <!--FxCop-->
   <ItemGroup>
-    <FxCop Include="E:\TestCCnet\ThirdParty\FxCop\FxCopCmd.exe" />
-    <AssembliesToAnalyze Include="E:\TestCCnet\FxCopTest.FxCop" />
-    <AnalysisReport Include="E:\TestCCnet\buildartifacts\FxCopAnalysis.xml" />
+    <FxCop Include="E:\GitHubSources\TestCCnet\ThirdParty\FxCop\FxCopCmd.exe" />
+    <AssembliesToAnalyze Include="E:\GitHubSources\TestCCnet\FxCopTest.FxCop" />
+    <AnalysisReport Include="E:\GitHubSources\TestCCnet\buildartifacts\FxCopAnalysis.xml" />
   </ItemGroup>
 
   <ItemGroup>
