@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0"  DefaultTargets="FxCop">
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0"  DefaultTargets="MsTest">
   <!--Refer to the MSBuildCommunityTasks to perform XmlRead. This is used to read and process the
   FxCop Analysis XML and check if there are any errors or warnings.-->
   <PropertyGroup>
