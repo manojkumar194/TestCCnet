@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="e:\testccnet\thirdparty\fxcop\Xml\FxCopReport.xsl"?>
+<FxCopReport Version="10.0">
+ <Targets>
+  <Target Name="$(ProjectDir)/buildartifacts/TestCCnet.dll">
+   <Modules>
+    <Module Name="testccnet.dll">
+     <Messages>
+      <Message TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824" Status="Active" Created="2014-09-22 18:00:01Z" FixCategory="NonBreaking">
+       <Issue Certainty="95" Level="Warning">Because assembly 'TestCCnet.dll' contains a ResX-based resource file, mark it with the NeutralResourcesLanguage attribute, specifying the language of the resources within the assembly. This could improve lookup performance the first time a resource is retrieved.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="TestCCnet">
+       <Types>
+        <Type Name="Test" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#form1" Kind="Property" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="form" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2014-09-22 18:00:01Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'form' in member name 'Test.form1()' by changing it to 'Form'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="TestCCnet.My">
+       <Types>
+        <Type Name="MyWebExtension" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#Application" Kind="Property" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Accessors>
+            <Accessor Name="#get_Application()" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2014-09-22 18:00:01Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="E:\projects2012\TestCCnet\TestCCnet\My Project\MyExtensions" File="MyWebExtension.vb" Line="21">'MyWebExtension.Application.Get()' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#Computer" Kind="Property" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Accessors>
+            <Accessor Name="#get_Computer()" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2014-09-22 18:00:01Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="E:\projects2012\TestCCnet\TestCCnet\My Project\MyExtensions" File="MyWebExtension.vb" Line="31">'MyWebExtension.Computer.Get()' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#Log" Kind="Property" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Accessors>
+            <Accessor Name="#get_Log()" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2014-09-22 18:00:01Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="E:\projects2012\TestCCnet\TestCCnet\My Project\MyExtensions" File="MyWebExtension.vb" Line="80">'MyWebExtension.Log.Get()' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#Request" Kind="Property" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Accessors>
+            <Accessor Name="#get_Request()" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2014-09-22 18:00:01Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="E:\projects2012\TestCCnet\TestCCnet\My Project\MyExtensions" File="MyWebExtension.vb" Line="51">'MyWebExtension.Request.Get()' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#Response" Kind="Property" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Accessors>
+            <Accessor Name="#get_Response()" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2014-09-22 18:00:01Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="E:\projects2012\TestCCnet\TestCCnet\My Project\MyExtensions" File="MyWebExtension.vb" Line="66">'MyWebExtension.Response.Get()' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#User" Kind="Property" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Accessors>
+            <Accessor Name="#get_User()" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2014-09-22 18:00:01Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="E:\projects2012\TestCCnet\TestCCnet\My Project\MyExtensions" File="MyWebExtension.vb" Line="40">'MyWebExtension.User.Get()' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+          <Member Name="#WebServices" Kind="Property" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Accessors>
+            <Accessor Name="#get_WebServices()" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+             <Messages>
+              <Message TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811" Status="Active" Created="2014-09-22 18:00:01Z" FixCategory="NonBreaking">
+               <Issue Certainty="75" Level="Warning" Path="E:\projects2012\TestCCnet\TestCCnet\My Project\MyExtensions" File="MyWebExtension.vb" Line="92">'MyWebExtension.WebServices.Get()' appears to have no upstream public or protected callers.</Issue>
+              </Message>
+             </Messages>
+            </Accessor>
+           </Accessors>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AvoidUncalledPrivateCode" Category="Microsoft.Performance" CheckId="CA1811">
+   <Name>Avoid uncalled private code</Name>
+   <Description>There is uncalled code that is not externally visible and is not a known runtime entry point. If this violation fires in error, please send a problem report to the Visual Studio Code Analysis team.</Description>
+   <Resolution Name="Default">{0} appears to have no upstream public or protected callers.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182264(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
+   <Name>Identifiers should be cased correctly</Name>
+   <Description>Type, namespace, and member identifiers are Pascal-cased. Parameter identifiers are camel-cased. Two letter acronyms within these identifiers should be upper-cased, for example, use System.IO instead of System.Io. Acronyms of three or more letters should be Pascal-cased, for example, use System.Xml instead of System.XML. The pascal-casing convention capitalizes the first letter of each word, as in BackColor. The camel-casing convention formats the first letter of the first word in lowercase and capitalizes the first letter of all subsequent words, as in backgroundColor. Although it may be common practice for some two letter acronyms to not be fully capitalized, violations of this rule should not be excluded for this reason. For example, 'DbConnection', is common but incorrect; use DBConnection. A violation of this rule might be required for compatibility with existing, non-managed symbol schemes. In general, however, these symbols should not be visible outside the assembly that uses them.</Description>
+   <Resolution Name="Member">Correct the casing of '{0}' in member name {1} by changing it to '{2}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182240(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="85">Error</MessageLevel>
+   <File Name="NamingRules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkAssembliesWithNeutralResourcesLanguage" Category="Microsoft.Performance" CheckId="CA1824">
+   <Name>Mark assemblies with NeutralResourcesLanguageAttribute</Name>
+   <Description>The NeutralResourcesLanguage attribute informs the ResourceManager of the language used to render the neutral culture's resources for an assembly. When looking up resources in the same culture as the neutral resources language, the ResourceManager automatically uses the resources located in the main assembly, instead of searching for a satellite assembly with the current user interface culture for the current thread. This will improve lookup performance for the first resource you load and can reduce your working set.</Description>
+   <Resolution Name="Default">Because assembly {0} contains a ResX-based resource file, mark it with the NeutralResourcesLanguage attribute, specifying the language of the resources within the assembly. This could improve lookup performance the first time a resource is retrieved.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb385967(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="PerformanceRules.dll" Version="10.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

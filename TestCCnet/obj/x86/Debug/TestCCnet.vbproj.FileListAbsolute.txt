@@ -1,0 +1,8 @@
+E:\projects2012\TestCCnet\TestCCnet\bin\x86\Debug\TestCCnet.dll
+E:\projects2012\TestCCnet\TestCCnet\bin\x86\Debug\TestCCnet.pdb
+E:\projects2012\TestCCnet\TestCCnet\bin\x86\Debug\TestCCnet.xml
+E:\projects2012\TestCCnet\TestCCnet\obj\x86\Debug\TestCCnet.Resources.resources
+E:\projects2012\TestCCnet\TestCCnet\obj\x86\Debug\TestCCnet.vbproj.GenerateResource.Cache
+E:\projects2012\TestCCnet\TestCCnet\obj\x86\Debug\TestCCnet.dll
+E:\projects2012\TestCCnet\TestCCnet\obj\x86\Debug\TestCCnet.xml
+E:\projects2012\TestCCnet\TestCCnet\obj\x86\Debug\TestCCnet.pdb
