@@ -20,8 +20,8 @@
   </ItemGroup>
   <ItemGroup>
     <MsTest Include=".C:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\MsTest.exe" />
-    <TestAssembly Include="E:\GitHubSources\TestCCnet\TestMS\bin\Debug\TestMS.dll" />
-    <TestResults Include=".\buildartifacts\TestResults.trx" />
+    <TestAssembly Include="E:\GitHubSources\TestCCnet\buildartifacts\TestMS.dll" />
+    <TestResults Include="E:\GitHubSources\TestCCnet\buildartifacts\TestResults.trx" />
   </ItemGroup>
 
   <ItemGroup>
