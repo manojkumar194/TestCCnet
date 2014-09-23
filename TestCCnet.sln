@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TestCCnet", "TestCCnet\TestCCnet.vbproj", "{17AAD5F5-523C-4F14-B508-63539C1742A6}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TestMS", "TestMS\TestMS.vbproj", "{6CC09D6D-2799-4539-9D77-26A74583D8B6}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3485F2C5-C344-4A22-807C-A043E664AFCA}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TestCCnet.vsmdi = TestCCnet.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TestMS", "TestMS\TestMS.vbproj", "{62CA64BA-B813-413A-A134-047F206D6D95}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
@@ -26,12 +31,12 @@ Global
 		{17AAD5F5-523C-4F14-B508-63539C1742A6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{17AAD5F5-523C-4F14-B508-63539C1742A6}.Release|x86.ActiveCfg = Release|x86
 		{17AAD5F5-523C-4F14-B508-63539C1742A6}.Release|x86.Build.0 = Release|x86
-		{6CC09D6D-2799-4539-9D77-26A74583D8B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CC09D6D-2799-4539-9D77-26A74583D8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CC09D6D-2799-4539-9D77-26A74583D8B6}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{6CC09D6D-2799-4539-9D77-26A74583D8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CC09D6D-2799-4539-9D77-26A74583D8B6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6CC09D6D-2799-4539-9D77-26A74583D8B6}.Release|x86.ActiveCfg = Release|Any CPU
+		{62CA64BA-B813-413A-A134-047F206D6D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62CA64BA-B813-413A-A134-047F206D6D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62CA64BA-B813-413A-A134-047F206D6D95}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{62CA64BA-B813-413A-A134-047F206D6D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62CA64BA-B813-413A-A134-047F206D6D95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62CA64BA-B813-413A-A134-047F206D6D95}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

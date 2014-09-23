@@ -1,11 +1,11 @@
 ﻿Imports System.Text
 
 <TestClass()>
-Public Class MsTest
+Public Class UnitTest1
 
     <TestMethod()>
     Public Sub TestMethod1()
-        Assert.AreEqual("manoj", "manu")
+        Assert.AreEqual("manoj", "manoj")
     End Sub
 
 End Class

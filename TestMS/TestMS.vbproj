@@ -7,7 +7,7 @@
     </ProductVersion>
     <SchemaVersion>
     </SchemaVersion>
-    <ProjectGuid>{6CC09D6D-2799-4539-9D77-26A74583D8B6}</ProjectGuid>
+    <ProjectGuid>{62CA64BA-B813-413A-A134-047F206D6D95}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>TestMS</RootNamespace>
     <AssemblyName>TestMS</AssemblyName>
@@ -75,8 +75,8 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MsTest.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="UnitTest1.vb" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
