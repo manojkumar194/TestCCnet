@@ -18,6 +18,11 @@
     <AssembliesToAnalyze Include="E:\GitHubSources\TestCCnet\FxCopTest.FxCop" />
     <AnalysisReport Include="E:\GitHubSources\TestCCnet\buildartifacts\FxCopAnalysis.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <MsTest Include=".C:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\MsTest.exe" />
+    <TestAssembly Include="E:\GitHubSources\TestCCnet\TestMS\bin\Debug\TestMS.dll" />
+    <TestResults Include=".\buildartifacts\TestResults.trx" />
+  </ItemGroup>
 
   <ItemGroup>
     <None Include="MSBuild_MasterConfigFile.BUILD" />
@@ -26,7 +31,17 @@
   <!--Clean-->
   <Target Name="Clean">
     <RemoveDir Directories="@(BuildArtifacts)" />
+    <delete>
+      <fileset>
+        <patternset >
+          <include name="**/bin/**" />
+          <include name="**/obj/**" />
+          <include name="${mstest_unit_test_file}" />
+        </patternset>
+      </fileset>
+    </delete>
   </Target>
+  
   <!--Init-->
   <Target Name="Init" DependsOnTargets="Clean">
     <MakeDir Directories="@(BuildArtifacts)" />
